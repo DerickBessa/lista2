@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(void){
+    int dia, tecla;
+
+
+while (1)
+
+{
+    
+    printf("digite um numero para 1 dia da semana");
+    scanf("%d", &dia);
+    getchar();
+
+        
+    
+    
+    switch (dia)
+    {
+    case 1:
+        printf("segunda\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 2:
+        printf("terca\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 3:
+        printf("quarta\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 4:
+        printf("quinta\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 5:
+        printf("sexta\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 6:
+        printf("sabado\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    case 7:
+        printf("domingo\n");
+        printf("pressione qualquer tecla para continuar ou 0 para sair\n");
+        break;
+    
+    case 0:
+        return 0;
+    default:
+        break;
+    }
+    tecla = getchar();
+    if (tecla == '0')
+    {
+        break;
+    }
+    
+}
+
+return 0;
+}
